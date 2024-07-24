@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app-tetris
-        image: tetris-image
+        image: mohamedmagdy840/tetris:latest
         ports:
         - containerPort: 3000
 ---
